@@ -18,7 +18,7 @@ public class MarcaService {
     private final MarcaMapper mapper;
 
     @Transactional
-    public MarcaResposta criarProduto(MarcaRequisicao dto) {
+    public MarcaResposta criarMarca(MarcaRequisicao dto) {
         Marca entidade = mapper.paraEntidade(dto);
         return mapper.paraResposta(repository.save(entidade));
     }

@@ -18,7 +18,7 @@ public class ClienteService {
     private final ClienteMapper mapper;
 
     @Transactional
-    public ClienteResposta criarProduto(ClienteRequisicao dto) {
+    public ClienteResposta criarCliente(ClienteRequisicao dto) {
         Cliente entidade = mapper.paraEntidade(dto);
         return mapper.paraResposta(repository.save(entidade));
     }

@@ -18,7 +18,7 @@ public class SetorService {
     private final SetorMapper mapper;
 
     @Transactional
-    public SetorResposta criarProduto(SetorRequisicao dto) {
+    public SetorResposta criarSetor(SetorRequisicao dto) {
         Setor entidade = mapper.paraEntidade(dto);
         return mapper.paraResposta(repository.save(entidade));
     }
