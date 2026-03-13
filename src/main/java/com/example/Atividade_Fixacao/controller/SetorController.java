@@ -2,7 +2,6 @@ package com.example.Atividade_Fixacao.controller;
 
 import com.example.Atividade_Fixacao.dto.setor.SetorRequisicao;
 import com.example.Atividade_Fixacao.dto.setor.SetorResposta;
-import com.example.Atividade_Fixacao.model.Setor;
 import com.example.Atividade_Fixacao.service.SetorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

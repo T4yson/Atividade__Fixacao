@@ -2,7 +2,6 @@ package com.example.Atividade_Fixacao.controller;
 
 import com.example.Atividade_Fixacao.dto.marca.MarcaRequisicao;
 import com.example.Atividade_Fixacao.dto.marca.MarcaResposta;
-import com.example.Atividade_Fixacao.model.Marca;
 import com.example.Atividade_Fixacao.service.MarcaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
