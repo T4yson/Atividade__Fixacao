@@ -1,4 +1,4 @@
-package com.example.Atividade_Fixacao.dto.produtor;
+package com.example.Atividade_Fixacao.dto.produto;
 
 import java.math.BigDecimal;
 
